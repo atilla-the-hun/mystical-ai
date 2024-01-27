@@ -2,32 +2,32 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <form>
-      <h2 className="text-2xl font-bold mb-5 text-white">Contact Me</h2>
+    <form action="https://formspree.io/f/mvoezqbw" method="POST">
+      <h2 className="text-[45px] font-normal mb-5 text-white font-mono form-heading">Contact us</h2>
       <div className="mb-3">
         <input
           type="text"
           placeholder="Your name"
           name="name"
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
         <input
           type="email"
           placeholder="Email"
-          name="email"
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          name="_replyto"
+          className="w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
       <div className="mb-3">
-        <input
+        <textarea
           placeholder="Your message"
           name="message"
-          className="w-full px-3 py-2 text-sm text-gray-200 placeholder-gray-400 bg-white border-0 rounded shadow"
+          className="w-full px-3 py-2 text-sm text-black placeholder-gray-400 bg-white border-0 rounded shadow"
         />
       </div>
-      <button className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
+      <button type="submit" className="px-6 mb-10 py-3 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-blue-500 hover:bg-blue-400">
         Send a message
       </button>
     </form>
@@ -35,3 +35,5 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+
