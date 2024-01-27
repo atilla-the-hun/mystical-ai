@@ -90,6 +90,7 @@ margin-top: 25px;
 }
 .nav-mobile {
   margin-left: 17px;
+  margin-bottom: -20px;
 }
 .mobile-cliff {
   z-index: 1;
