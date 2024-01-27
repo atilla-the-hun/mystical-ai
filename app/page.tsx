@@ -72,6 +72,7 @@ export default function Home() {
           alt="horse"
           height={300}
           width={300}
+          unoptimized={true}
           className="absolute right-[220px] top-20 md:top-40 mobile-horse"
         />
 
