@@ -7,18 +7,19 @@ const Navbar = () => {
   return (
     <div className="fixed top-0 z-[60] w-full h-[100px] bg-transparent flex justify-between items-center px-10 md:px-20 logo">
       <div className="flex flex-row gap-3 items-center">
-      <a href="http://localhost:3000/">
+      <a href="https://exquisite-medovik-177427.netlify.app/">
         <div className="relative horse">
           { <Image
             src="/horse.png"
             alt="logo"
             width={60}
             height={60}
+            unoptimized={true}
             
           /> }
         </div>
         </a>
-        <a href="http://localhost:3000/">
+        <a href="https://exquisite-medovik-177427.netlify.app/">
           <h1 className="text-white text-[25px] font-semibold mobile-title font-mono">
             Mythical{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
