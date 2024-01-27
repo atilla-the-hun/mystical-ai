@@ -83,7 +83,7 @@ margin-top: 25px;
   margin-top: -300px;
   margin-left: -5px;
   padding-bottom: 20px;
-  font-size: 28px;
+  font-size: 25px;
 }
 .nav-items-mobile {
   margin-left: -19px;
@@ -96,6 +96,7 @@ margin-top: 25px;
 }
 .mobile-title {
   margin-left: -20px;
+  font-size: 20px;
 }
 .skills-mobile {
   font-size: 28px;
