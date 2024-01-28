@@ -81,10 +81,11 @@ margin-top: -15px;
 }
 .heading-mobile {
   margin-top: 280px;
-  margin-left: -10px;
+  margin-left: -5px;
   font-size: 28px;
   padding-bottom: 200px;
   font-weight: normal;
+  text-align: center;
 }
 .nav-items-mobile {
   margin-left: -19px;
