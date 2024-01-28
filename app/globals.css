@@ -76,8 +76,8 @@ body {
 
 @media (max-width: 480px) {
 .mobile-horse {
-margin-right: -120px;
-margin-top: 25px;
+margin-right: -150px;
+margin-top: -25px;
 }
 .heading-mobile {
   margin-top: -300px;
