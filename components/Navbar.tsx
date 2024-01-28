@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
         </a>
         <a href="https://exquisite-medovik-177427.netlify.app/">
-          <h1 className="text-white text-[25px] font-semibold mobile-title font-mono">
+          <h1 className="text-white text-[25px] font-semibold mobile-title">
             Mythical{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-red-500">
               {" "}
@@ -35,7 +35,7 @@ const Navbar = () => {
               href="/contact-me"
               className="rounded-[15px] group relative px-2 py-1 text-lg text-white max-w-[200px] pb-2 button-primary"
             >
-              <span className="text-sm font-mono">Custom AI Solutions</span>
+              <span className="text-sm">Custom AI Solutions</span>
             </Link>
       </div>
     </div>
