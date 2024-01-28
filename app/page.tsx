@@ -16,7 +16,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-gray-200 md:block content-mobile font-mono" style={{ marginTop: "-15px", display: "block" }}>
-          We specialize in recognizing and incorporating state-of-the-art AI solutions, providing seamless guidance throughout the entire process from conception to deployment and beyond.
+          We specialize in state-of-the-art AI solutions.
           </p>
           <div className="flex-col md:flex-row hidden md:flex gap-5">
             <Link

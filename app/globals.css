@@ -76,7 +76,7 @@ body {
 
 @media (max-width: 480px) {
 .mobile-horse {
-margin-right: -160px;
+margin-right: -120px;
 margin-top: 25px;
 }
 .heading-mobile {
@@ -95,6 +95,7 @@ margin-top: 25px;
 }
 .mobile-cliff {
   z-index: 1;
+  height: 850px;
 }
 .mobile-title {
   margin-left: -20px;
