@@ -94,6 +94,7 @@ export default function Home() {
         alt="stars"
         height={300}
         width={300}
+        unoptimized={true}
         className="absolute top-0 left-0 z-10"
       />
     </main>
