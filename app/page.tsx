@@ -18,7 +18,7 @@ export default function Home() {
           <p className="text-gray-200 md:block content-mobile font-mono" style={{ marginTop: "-15px", display: "block" }}>
           We specialize in state-of-the-art AI solutions.
           </p>
-          <div className="flex-col md:flex-row hidden md:flex gap-5">
+          <div className="flex-col md:flex-row hidden md:flex gap-5 homepage-links">
             <Link
               href="/my-skills"
               className="rounded-[20px] group relative bg-transparent border border-white px-5 py-3 text-lg text-white max-w-[200px] font-mono"
